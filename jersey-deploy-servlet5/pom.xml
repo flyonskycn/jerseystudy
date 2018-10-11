@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-  	<groupId>com.flyonsky</groupId>
-  	<artifactId>jerseystudy</artifactId>
-  	<version>0.0.1-SNAPSHOT</version>
+    <groupId>com.flyonsky</groupId>
+    <artifactId>jerseystudy</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>jersey1guice</artifactId>
+  <artifactId>jersey-deploy-servlet5</artifactId>
   <packaging>war</packaging>
   
   <dependencies>
@@ -14,16 +14,8 @@
 	    <artifactId>jersey-server</artifactId>
 	</dependency>
 	<dependency>
-	    <groupId>com.sun.jersey.contribs</groupId>
-	    <artifactId>jersey-guice</artifactId>
-	</dependency>
-	<dependency>
-	    <groupId>com.google.inject</groupId>
-	    <artifactId>guice</artifactId>
-	</dependency>
-	<dependency>
-	    <groupId>com.google.inject.extensions</groupId>
-	    <artifactId>guice-servlet</artifactId>
+	    <groupId>com.sun.jersey</groupId>
+	    <artifactId>jersey-servlet</artifactId>
 	</dependency>
 	<dependency>
 	    <groupId>javax.servlet</groupId>
