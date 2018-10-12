@@ -12,6 +12,10 @@
    			<param-name>com.sun.jersey.config.property.packages</param-name>
    			<param-value>com.flyonsky.deploy.resouces</param-value>
    		</init-param>
+		<init-param>
+			<param-name>com.sun.jersey.spi.container.ContainerRequestFilters</param-name>
+			<param-value>com.flyonsky.deploy.filter.FirstFilter</param-value>
+		</init-param>
    	</servlet>
    	<servlet-mapping>
    		<servlet-name>Jersey Web Application</servlet-name>
